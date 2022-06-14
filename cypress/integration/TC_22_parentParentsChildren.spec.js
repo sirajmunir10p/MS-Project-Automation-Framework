@@ -1,4 +1,4 @@
-describe('Example to demonstrate parent, parents and children commands in cypress', () => {
+describe('Demonstrate parent, parents and children commands in cypress', () => {
 
     before(() => {
         cy.visit('https://testautomationpractice.blogspot.com/')

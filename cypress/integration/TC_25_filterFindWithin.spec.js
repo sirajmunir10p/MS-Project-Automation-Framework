@@ -1,4 +1,4 @@
-describe('Example to demonstrate filter, find and within commands in cypress', () => {
+describe('Demonstrate filter, find and within commands in cypress', () => {
 
     it('Using filter with selector', { tags: 'regression' }, function () {
         cy.visit('/')

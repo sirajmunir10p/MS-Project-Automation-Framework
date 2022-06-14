@@ -1,7 +1,7 @@
 import TestFilters from '../support/filterTests.js'
 
 TestFilters([], () => {
-    describe('Example to Demonstrate Cypress Studio', () => {
+    describe('Demonstrate Cypress Studio', () => {
 
         it('Extend Test via Cypress Studio', () => {
             cy.visit('https://opensource-demo.orangehrmlive.com/index.php/dashboard')

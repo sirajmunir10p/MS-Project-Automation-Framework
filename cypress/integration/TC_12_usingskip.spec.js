@@ -1,7 +1,7 @@
 import TestFilters from '../support/filterTests.js'
 
 TestFilters([], () => {
-    describe('Example to Demostrate the use of skip in cypress', () => {
+    describe('Validate the Wikipedia Search Functionality', () => {
         before(() => {
             cy.visit('https://wikipedia.org')
         })

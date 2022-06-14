@@ -1,4 +1,4 @@
-describe('Example to Demostrate how to hover over element in cypress', () => {
+describe('Demostrate how to hover over element in cypress', () => {
 
     it('Hover and Validate Text using trigger(\'mouseover\')', function () {
         cy.visit('https://www.amazon.com/')

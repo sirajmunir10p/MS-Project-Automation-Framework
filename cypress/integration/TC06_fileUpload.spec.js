@@ -1,7 +1,7 @@
 import TestFilters from '../support/filterTests.js'
 
 TestFilters([], () => {
-    describe('Example to demonstrate file upload in cypress', function () {
+    describe('File upload in cypress', function () {
 
         it('File Upload using cypress-file-upload npm package', () => {
             cy.visit('https://the-internet.herokuapp.com/upload')

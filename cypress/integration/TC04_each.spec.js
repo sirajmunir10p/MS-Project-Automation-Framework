@@ -1,7 +1,7 @@
 import TestFilters from '../support/filterTests.js'
 
 TestFilters([], () => {
-    describe('Example to demonstrate the use each in Cypress', function () {
+    describe('Demonstrate the use each in Cypress', function () {
         before(function () {
             cy.visit('https://opensource-demo.orangehrmlive.com/')
         })

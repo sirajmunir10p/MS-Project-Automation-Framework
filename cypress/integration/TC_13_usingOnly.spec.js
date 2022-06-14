@@ -1,7 +1,7 @@
 import TestFilters from '../support/filterTests.js'
 
 TestFilters([], () => {
-    describe('Example to Demostrate the use of only in cypress', () => {
+    describe('Demostrate the use of only in cypress', () => {
         before(() => {
             cy.visit('https://wikipedia.org')
         })

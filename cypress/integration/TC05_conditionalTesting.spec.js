@@ -1,7 +1,7 @@
 import TestFilters from '../support/filterTests.js'
 
 TestFilters(['regression'], () => {
-    describe('Example to demo conditional testing in cypress', () => {
+    describe('Conditional testing in cypress', () => {
         beforeEach(() => {
             cy.visit('https://wikipedia.org')
         })
