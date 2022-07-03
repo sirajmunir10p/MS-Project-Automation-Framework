@@ -1,7 +1,7 @@
 import TestFilters from '../support/filterTests.js'
 
 TestFilters([], () => {
-    describe('API Chaining in Cypress', function () {
+    describe('API Testing using Chaining Technique in Cypress', function () {
 
         it('Chain two API requests and validate the response', () => {
             //Part 1

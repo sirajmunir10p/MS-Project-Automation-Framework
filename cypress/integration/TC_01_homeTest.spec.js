@@ -2,6 +2,8 @@
 
 import loginPage from './pages/loginPage.js'
 import homePage from './pages/homePage.js'
+var email = "xirajmunir@gmail.com"
+var password = "siraj1234"
 
 describe('Test Suite', function() {
 
@@ -10,8 +12,8 @@ describe('Test Suite', function() {
 
     it('Login with Valid Credentials', function() {
         loginpage.visit()
-        loginpage.enterEmail("xirajmunir@gmail.com")
-        loginpage.enterPassword("siraj1234")
+        loginpage.enterEmail(email)
+        loginpage.enterPassword(password)
         loginpage.clickSubmit()
         cy.title().should('be.equal', 'My account - My Store')
     })

@@ -1,4 +1,4 @@
-describe('Demostrate how to hover over element in cypress', () => {
+describe('Open Amazon Website & Hover over an element', () => {
 
     it('Hover and Validate Text using trigger(\'mouseover\')', function () {
         cy.visit('https://www.amazon.com/')
