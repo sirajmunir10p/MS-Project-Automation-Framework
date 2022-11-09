@@ -1,5 +1,5 @@
-# Welcome to Test Automation Framework
-# IBA MS Project 2022
+# Welcome to Test Automation Framework with Cypress.io
+# MS Project 2022
 # How to Start
 1. Clone the project
 2. `npm i` - Install all the dependencies
